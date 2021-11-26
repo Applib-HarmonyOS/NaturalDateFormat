@@ -13,19 +13,19 @@ This library provides feature to format dates.
 1. For using naturaldateformat module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
 ```groovy
 	dependencies {
-        implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
-        testImplementation 'junit:junit:4.13'
-        ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
-        implementation project(path: ':naturaldateformat')
-    }
+                implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+                testImplementation 'junit:junit:4.13'
+                ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
+                implementation project(path: ':naturaldateformat')
+        }
 ```
 2. For using naturaldateformat in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
 ```groovy
 	dependencies {
-        implementation fileTree(dir: 'libs', include: ['*.jar'])
-        testImplementation 'junit:junit:4.13'
-        compile 'joda-time:joda-time:2.9.4'
-    }
+                implementation fileTree(dir: 'libs', include: ['*.jar'])
+                testImplementation 'junit:junit:4.13'
+                compile 'joda-time:joda-time:2.9.4'
+        }
 ```
 
 

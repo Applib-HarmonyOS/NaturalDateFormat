@@ -1,0 +1,25 @@
+{
+  "app": {
+    "bundleName": "tk.zielony.test",
+    "vendor": "zielony",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "tk.zielony.naturaldateformat",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "naturaldateformat",
+      "moduleType": "har"
+    }
+  }
+}

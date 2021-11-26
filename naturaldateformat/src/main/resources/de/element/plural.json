@@ -1,0 +1,157 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "vor einer Stunde"
+        },
+        {
+          "quantity": "other",
+          "value": "vor %d Stunden"
+        }
+      ]
+    },{
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "in einer Stunde"
+        },
+        {
+          "quantity": "other",
+          "value": "in %d Stunden"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "vor einer Minute"
+        },
+        {
+          "quantity": "other",
+          "value": "vor %d Minuten"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "in einer Minute"
+        },
+        {
+          "quantity": "other",
+          "value": "in %d Minuten"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "vor einer Sekunde"
+        },
+        {
+          "quantity": "other",
+          "value": "vor %d Sekunden"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "in einer Sekunde"
+        },
+        {
+          "quantity": "other",
+          "value": "in %d Sekunden"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "letztes Jahr"
+        },
+        {
+          "quantity": "other",
+          "value": "vor %d Jahren"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "nächstes Jahr"
+        },
+        {
+          "quantity": "other",
+          "value": "in %d Jahren"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "im letzten Monat"
+        },
+        {
+          "quantity": "other",
+          "value": "vor %d Monaten"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "nächsten Monat"
+        },
+        {
+          "quantity": "other",
+          "value": "in %d Monaten"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "gestern"
+        },
+        {
+          "quantity": "two",
+          "value": "vorgestern"
+        },
+        {
+          "quantity": "other",
+          "value": "vor %d Tagen"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "morgen"
+        },
+        {
+          "quantity": "two",
+          "value": "übermorgen"
+        },
+        {
+          "quantity": "other",
+          "value": "in %d Tagen"
+        }
+      ]
+    }
+  ]
+}

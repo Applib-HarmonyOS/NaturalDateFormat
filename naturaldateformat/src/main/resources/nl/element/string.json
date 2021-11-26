@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "now",
+      "value": "now"
+    },
+    {
+      "name": "thisMonth",
+      "value": "deze maand"
+    },
+    {
+      "name": "today",
+      "value": "vandaag"
+    },
+    {
+      "name": "thisYear",
+      "value": "dit jaar"
+    }
+  ]
+}

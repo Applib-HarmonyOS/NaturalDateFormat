@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NaturalDateFormat.iml" filepath="$PROJECT_DIR$/NaturalDateFormat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/naturaldateformat/naturaldateformat.iml" filepath="$PROJECT_DIR$/naturaldateformat/naturaldateformat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NaturalDateFormat.iml" filepath="$PROJECT_DIR$/.idea/modules/NaturalDateFormat.iml" group="NaturalDateFormat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry/entry.iml" group="NaturalDateFormat/entry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/naturaldateformat/naturaldateformat.iml" filepath="$PROJECT_DIR$/.idea/modules/naturaldateformat/naturaldateformat.iml" group="NaturalDateFormat/naturaldateformat" />
     </modules>
   </component>
 </project>

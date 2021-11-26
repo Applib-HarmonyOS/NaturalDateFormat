@@ -1,7 +1,6 @@
 package tk.zielony.naturaldateformat;
 
-import android.content.Context;
-
+import ohos.app.Context;
 import org.joda.time.Chronology;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeFieldType;
@@ -9,17 +8,24 @@ import org.joda.time.DateTimeZone;
 import org.joda.time.Years;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-
 import java.util.TimeZone;
 
 /**
  * Created by Marcin on 2016-04-02.
  */
 public class AbsoluteDateFormat extends NaturalDateFormat {
+
     protected DateTimeFormatter timeFormat;
-    protected DateTimeFormatter dateFormat, weekdayFormat, yearFormat;
-    DateTimeFieldType omitTime = DateTimeFieldType.monthOfYear(), omitWeekday = DateTimeFieldType.weekOfWeekyear();
-    protected boolean twelveHour = false, abbreviated = false;
+
+    protected DateTimeFormatter dateFormat;
+    protected DateTimeFormatter weekdayFormat;
+    protected DateTimeFormatter yearFormat;
+
+    DateTimeFieldType omitTime = DateTimeFieldType.monthOfYear();
+    DateTimeFieldType omitWeekday = DateTimeFieldType.weekOfWeekyear();
+
+    protected boolean twelveHour = false;
+    protected  boolean abbreviated = false;
 
     public AbsoluteDateFormat(Context context, Chronology chronology, int format) {
         super(context, chronology, format);
@@ -34,44 +40,57 @@ public class AbsoluteDateFormat extends NaturalDateFormat {
     }
 
     private void buildDateFormat() {
-        if (!hasFormat(DATE))
+        if (!hasFormat(DATE)) {
             return;
+        }
         weekdayFormat = DateTimeFormat.forPattern(abbreviated ? "EEE" : "EEEEE");
-        if (zone != null)
+        if (zone != null) {
             weekdayFormat.withZone(DateTimeZone.forTimeZone(zone));
-        if (chronology != null)
+        }
+        if (chronology != null) {
             weekdayFormat.withChronology(chronology);
+        }
         StringBuilder pattern = new StringBuilder();
-        if ((format & DAYS) != 0)
+        if ((format & DAYS) != 0) {
             pattern.append("d");
+        }
         if ((format & MONTHS) != 0) {
             pattern.append(pattern.length() == 0 ? "" : " ");
             pattern.append(abbreviated ? "MMM" : "MMMMM");
         }
         dateFormat = DateTimeFormat.forPattern(pattern.toString());
-        if (zone != null)
+        if (zone != null) {
             dateFormat.withZone(DateTimeZone.forTimeZone(zone));
-        if (chronology != null)
+        }
+        if (chronology != null) {
             dateFormat.withChronology(chronology);
+        }
         yearFormat = DateTimeFormat.forPattern(" YYYY");
-        if (zone != null)
+        if (zone != null) {
             yearFormat.withZone(DateTimeZone.forTimeZone(zone));
-        if (chronology != null)
+        }
+        if (chronology != null) {
             yearFormat.withChronology(chronology);
+        }
     }
 
     private void buildTimeFormat() {
-        if (!hasFormat(TIME))
+        if (!hasFormat(TIME)) {
             return;
+        }
         StringBuilder pattern = new StringBuilder();
-        if ((format & HOURS) != 0)
+        if ((format & HOURS) != 0) {
             pattern.append(twelveHour ? "h" : "H");
-        if ((format & MINUTES) != 0)
+        }
+        if ((format & MINUTES) != 0) {
             pattern.append(pattern.length() == 0 ? "mm" : ":mm");
-        if ((format & SECONDS) != 0)
+        }
+        if ((format & SECONDS) != 0) {
             pattern.append(pattern.length() == 0 ? "ss" : ":ss");
-        if (hasFormat(HOURS) && twelveHour)
+        }
+        if (hasFormat(HOURS) && twelveHour) {
             pattern.append(" a");
+        }
         timeFormat = DateTimeFormat.forPattern(pattern.toString());
     }
 
@@ -135,33 +154,34 @@ public class AbsoluteDateFormat extends NaturalDateFormat {
 
     @Override
     protected String formatTime(DateTime now, DateTime then) {
-        if (timeFormat == null)
+        if (timeFormat == null) {
             buildTimeFormat();
-
+        }
         return timeFormat.print(then);
     }
 
     @Override
     protected String formatDate(DateTime now, DateTime then) {
-        if (dateFormat == null)
+        if (dateFormat == null) {
             buildDateFormat();
-
+        }
         StringBuilder builder = new StringBuilder();
-        if (hasFormat(WEEKDAY) && now.get(omitWeekday) == then.get(omitWeekday))
+        if (hasFormat(WEEKDAY) && now.get(omitWeekday) == then.get(omitWeekday)) {
             builder.append(weekdayFormat.print(then));
+        }
         if (hasFormat(DAYS | MONTHS)) {
-            if (builder.length() > 0)
+            if (builder.length() > 0) {
                 builder.append(", ");
+            }
             builder.append(dateFormat.print(then));
         }
-        if (hasFormat(YEARS) && Years.yearsBetween(now, then).getYears() != 0)
+        if (hasFormat(YEARS) && Years.yearsBetween(now, then).getYears() != 0) {
             builder.append(yearFormat.print(then));
-
+        }
         if (hasFormat(TIME) && now.get(omitTime) == then.get(omitTime)) {
             builder.append(", ");
             builder.append(formatTime(now, then));
         }
-
         return builder.toString();
     }
 }

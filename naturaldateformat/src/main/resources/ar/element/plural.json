@@ -1,0 +1,234 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "قبل ساعة"
+        },
+        {
+          "quantity": "two",
+          "value": "قبل ساعتين"
+        },
+        {
+          "quantity": "many",
+          "value": "قبل %d ساعة"
+        },{
+          "quantity": "other",
+          "value": "قبل %d ساعات"
+        }
+      ]
+    },
+    {
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "بعد ساعة"
+        },
+        {
+          "quantity": "two",
+          "value": "بعد ساعتين"
+        },
+        {
+          "quantity": "many",
+          "value": "بعد %d ساعة"
+        },{
+          "quantity": "other",
+          "value": "بعد %d ساعات"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "قبل دقيقة"
+        },
+        {
+          "quantity": "two",
+          "value": "قبل دقيقتين"
+        },
+        {
+          "quantity": "many",
+          "value": "قبل %d دقيقة"
+        },{
+          "quantity": "other",
+          "value": "قبل %d دقائق"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "بعد دقيقة"
+        },
+        {
+          "quantity": "two",
+          "value": "بعد  دقيقتين"
+        },
+        {
+          "quantity": "many",
+          "value": "بعد %d دقيقة"
+        },{
+          "quantity": "other",
+          "value": "بعد %d دقائق"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "قبل  ثانية"
+        },
+        {
+          "quantity": "two",
+          "value": "قبل   ثانيتين "
+        },
+        {
+          "quantity": "many",
+          "value": "قبل %d ثانية"
+        },{
+          "quantity": "other",
+          "value": "قبل %d ثواني"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "بعد   ثانية"
+        },
+        {
+          "quantity": "two",
+          "value": "بعد    ثانيتين "
+        },
+        {
+          "quantity": "many",
+          "value": "بعد %d ثانية"
+        },{
+          "quantity": "other",
+          "value": "بعد %d ثواني"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "العام الماضي"
+        },
+        {
+          "quantity": "two",
+          "value": "قبل عامين"
+        },
+        {
+          "quantity": "many",
+          "value": "قبل %d عام"
+        },{
+          "quantity": "other",
+          "value": "قبل %d اعوام"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "العام القادم"
+        },
+        {
+          "quantity": "two",
+          "value": "بعد    عامين "
+        },
+        {
+          "quantity": "many",
+          "value": "بعد %d عام"
+        },{
+          "quantity": "other",
+          "value": "بعد %d اعوام"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "الشهر الماضي"
+        },
+        {
+          "quantity": "two",
+          "value": "قبل شهريين"
+        },
+        {
+          "quantity": "many",
+          "value": "قبل %d شهر"
+        },{
+          "quantity": "other",
+          "value": "قبل %d اشهر"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "الشهر القادم"
+        },
+        {
+          "quantity": "two",
+          "value": "بعد شهريين"
+        },
+        {
+          "quantity": "many",
+          "value": "بعد %d شهر"
+        },{
+          "quantity": "other",
+          "value": "بعد %d اشهر"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "امس"
+        },
+        {
+          "quantity": "two",
+          "value": "قبل  يوميين"
+        },
+        {
+          "quantity": "many",
+          "value": "قبل %d يوم"
+        },{
+          "quantity": "other",
+          "value": "قبل %d ايام"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "غدا"
+        },
+        {
+          "quantity": "two",
+          "value": "بعد يوميين"
+        },
+        {
+          "quantity": "many",
+          "value": "بعد %d يوم"
+        },{
+          "quantity": "other",
+          "value": "بعد %d ايام"
+        }
+      ]
+    }
+  ]
+}

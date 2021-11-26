@@ -1,0 +1,149 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "een uur geleden"
+        },
+        {
+          "quantity": "other",
+          "value": "%d uur geleden"
+        }
+      ]
+    },{
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "komend uur"
+        },
+        {
+          "quantity": "other",
+          "value": "over %d uur"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "een minuut geleden"
+        },
+        {
+          "quantity": "other",
+          "value": "%d minuten geleden"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "over een minuut"
+        },
+        {
+          "quantity": "other",
+          "value": "over %d minuten"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "een seconde geleden"
+        },
+        {
+          "quantity": "other",
+          "value": "%d seconden geleden"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "over een seconde"
+        },
+        {
+          "quantity": "other",
+          "value": "over %d seconden"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "vorig jaar"
+        },
+        {
+          "quantity": "other",
+          "value": "%d jaar geleden"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "komend jaar"
+        },
+        {
+          "quantity": "other",
+          "value": "over %d jaar"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "vorige maand"
+        },
+        {
+          "quantity": "other",
+          "value": "%d maanden geleden"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "komende maand"
+        },
+        {
+          "quantity": "other",
+          "value": "over %d maanden"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "gisteren"
+        },
+        {
+          "quantity": "other",
+          "value": "%d dagen geleden"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "morgen"
+        },
+        {
+          "quantity": "other",
+          "value": "over %d dagen"
+        }
+      ]
+    }
+  ]
+}

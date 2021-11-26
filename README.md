@@ -1,6 +1,6 @@
 # NaturalDateFormat
 
-A HMOS library to format dates.RelativeDateFormat formats date as relative (4 months ago, today, next year), AbsoluteDateFormat formats date as absolute (Monday, 4:32 PM, June 10).
+A HMOS library to format dates. RelativeDateFormat formats date as relative (4 months ago, today, next year), AbsoluteDateFormat formats date as absolute (Monday, 4:32 PM, June 10).
 
 ## Source
 Inspired by [ZieIony/NaturalDateFormat](https://github.com/ZieIony/NaturalDateFormat) 
@@ -44,17 +44,16 @@ This library provides feature to format dates.
                     ohos:text="Hello World"
                     ohos:text_size="30vp"
                     ohos:background_element="$graphic:background_ability_main"
-                    ohos:layout_alignment="horizontal_center"
-                    >
+                    ohos:layout_alignment="horizontal_center">
                 </Text>
-            </ScrollView>
+        </ScrollView>
 ```
 #### Java
 ```java
 RelativeDateFormat relFormat = new RelativeDateFormat(context,NaturalDateFormat.DATE);
-        AbsoluteDateFormat absFormat = new AbsoluteDateFormat(context,NaturalDateFormat.DATE | NaturalDateFormat.HOURS | NaturalDateFormat.MINUTES);
-        relFormat.format(new Date().getTime());
-        absFormat.format(new Date().getTime());
+AbsoluteDateFormat absFormat = new AbsoluteDateFormat(context,NaturalDateFormat.DATE | NaturalDateFormat.HOURS | NaturalDateFormat.MINUTES);
+relFormat.format(new Date().getTime());
+absFormat.format(new Date().getTime());
 ```
 
 

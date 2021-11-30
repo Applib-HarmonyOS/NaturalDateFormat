@@ -29,18 +29,32 @@ public abstract class NaturalDateFormat {
 
     protected Chronology chronology;
 
-    protected NaturalDateFormat(Context context, int format) {
+    public NaturalDateFormat(Context context, int format) {
         this.context = context;
         this.format = format;
     }
 
-    protected NaturalDateFormat(Context context, Chronology chronology, int format) {
+    /**
+     * NaturalDateFormat constructor.
+     *
+     * @param context context
+     * @param chronology chronology
+     * @param format format
+     */
+    public NaturalDateFormat(Context context, Chronology chronology, int format) {
         this.context = context;
         this.chronology = chronology;
         this.format = format;
     }
 
-    protected NaturalDateFormat(Context context, TimeZone zone, int format) {
+    /**
+     * NaturalDateFormat constructor.
+     *
+     * @param context context
+     * @param zone TimeZone
+     * @param format format
+     */
+    public NaturalDateFormat(Context context, TimeZone zone, int format) {
         this.context = context;
         this.zone = zone;
         this.format = format;

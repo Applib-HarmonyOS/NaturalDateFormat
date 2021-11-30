@@ -36,6 +36,9 @@ allprojects {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
+        maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
         jcenter()
     }
     task checkstyle(type: Checkstyle) {

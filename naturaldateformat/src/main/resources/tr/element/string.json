@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "now",
+      "value": "şimdi"
+    },
+    {
+      "name": "thisMonth",
+      "value": "bu ay"
+    },
+    {
+      "name": "today",
+      "value": "bugün"
+    },
+    {
+      "name": "thisYear",
+      "value": "bu yıl"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy órája"
+        },
+        {
+          "quantity": "other",
+          "value": "%d órája"
+        }
+      ]
+    },{
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy órán belül"
+        },
+        {
+          "quantity": "other",
+          "value": "%d órán belül"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy perce"
+        },
+        {
+          "quantity": "other",
+          "value": "%d perce"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy percen belül"
+        },
+        {
+          "quantity": "other",
+          "value": "%d percen belül"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy másodperce"
+        },
+        {
+          "quantity": "other",
+          "value": "%d másodperce"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy másodpercen belül"
+        },
+        {
+          "quantity": "other",
+          "value": "%d másodpercen belül"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "tavaly"
+        },
+        {
+          "quantity": "other",
+          "value": "%d évvel ezelőtt"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy éven belül"
+        },
+        {
+          "quantity": "other",
+          "value": "%d éven belül"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy hónapja"
+        },
+        {
+          "quantity": "other",
+          "value": "%d hónapja"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "egy hónapon belül"
+        },
+        {
+          "quantity": "other",
+          "value": "%d hónapon belül"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "tegnap"
+        },
+        {
+          "quantity": "other",
+          "value": "%d napja"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "holnap"
+        },
+        {
+          "quantity": "other",
+          "value": "%d napon belül"
+        }
+      ]
+    }
+  ]
+}

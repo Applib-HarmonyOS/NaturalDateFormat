@@ -1,0 +1,137 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "other",
+          "value": "%d 小时前"
+        }
+      ]
+    },{
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "other",
+          "value": "%d 小时后"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "other",
+          "value": "%d 分钟前"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "other",
+          "value": "%d 分钟后"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "other",
+          "value": "%d 秒钟之前"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "即刻"
+        },
+        {
+          "quantity": "other",
+          "value": "%d 秒后"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "去年"
+        },
+        {
+          "quantity": "two",
+          "value": "前年"
+        },
+        {
+          "quantity": "other",
+          "value": "%d 年前"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "明年"
+        },
+        {
+          "quantity": "two",
+          "value": "后年"
+        },
+        {
+          "quantity": "other",
+          "value": "%d 年后"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "other",
+          "value": "%d 个月前"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "other",
+          "value": "%d 个月后"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "昨天"
+        },
+        {
+          "quantity": "two",
+          "value": "前天"
+        },
+        {
+          "quantity": "other",
+          "value": "%d 天前"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "明天"
+        },
+        {
+          "quantity": "two",
+          "value": "后天"
+        },
+        {
+          "quantity": "other",
+          "value": "%d 天后"
+        }
+      ]
+    }
+  ]
+}

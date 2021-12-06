@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "now",
+      "value": "当下"
+    },
+    {
+      "name": "thisMonth",
+      "value": "当月"
+    },
+    {
+      "name": "today",
+      "value": "今天"
+    },
+    {
+      "name": "thisYear",
+      "value": "今年"
+    }
+  ]
+}

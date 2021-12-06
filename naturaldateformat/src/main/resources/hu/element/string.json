@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "now",
+      "value": "most"
+    },
+    {
+      "name": "thisMonth",
+      "value": "ebben a hónapban"
+    },
+    {
+      "name": "today",
+      "value": "ma"
+    },
+    {
+      "name": "thisYear",
+      "value": "idén"
+    }
+  ]
+}

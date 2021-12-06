@@ -1,0 +1,234 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "godzinę temu"
+        },
+        {
+          "quantity": "few",
+          "value": "%d godziny temu"
+        },
+        {
+          "quantity": "many",
+          "value": "%d godzin temu"
+        },{
+          "quantity": "other",
+          "value": "%d godziny temu"
+        }
+      ]
+    },
+    {
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "za godzinę"
+        },
+        {
+          "quantity": "few",
+          "value": "za %d godziny"
+        },
+        {
+          "quantity": "many",
+          "value": "za %d godzin"
+        },{
+          "quantity": "other",
+          "value": "za %d godziny"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "minutę temu"
+        },
+        {
+          "quantity": "few",
+          "value": "%d minuty temu"
+        },
+        {
+          "quantity": "many",
+          "value": "%d minut temu"
+        },{
+          "quantity": "other",
+          "value": "%d minuty temu"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "za minutę"
+        },
+        {
+          "quantity": "few",
+          "value": "za %d minuty"
+        },
+        {
+          "quantity": "many",
+          "value": "za %d minut"
+        },{
+          "quantity": "other",
+          "value": "za %d minuty"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "sekundę temu"
+        },
+        {
+          "quantity": "few",
+          "value": "%d sekundy temu"
+        },
+        {
+          "quantity": "many",
+          "value": "%d sekund temu"
+        },{
+          "quantity": "other",
+          "value": "%d sekundy temu"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "za sekundę"
+        },
+        {
+          "quantity": "few",
+          "value": "za %d sekundy"
+        },
+        {
+          "quantity": "many",
+          "value": "za %d sekund"
+        },{
+          "quantity": "other",
+          "value": "za %d sekundy"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "w ubiegłym roku"
+        },
+        {
+          "quantity": "few",
+          "value": "%d lata temu"
+        },
+        {
+          "quantity": "many",
+          "value": "%d lat temu"
+        },{
+          "quantity": "other",
+          "value": "%d lata temu"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "w przyszłym roku"
+        },
+        {
+          "quantity": "few",
+          "value": "za %d lata"
+        },
+        {
+          "quantity": "many",
+          "value": "za %d lat"
+        },{
+          "quantity": "other",
+          "value": "za %d lata"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "w ubiegłym miesiącu"
+        },
+        {
+          "quantity": "few",
+          "value": "%d miesiące temu"
+        },
+        {
+          "quantity": "many",
+          "value": "%d miesięcy temu"
+        },{
+          "quantity": "other",
+          "value": "%d miesiąca temu"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "w przyszłym miesiącu"
+        },
+        {
+          "quantity": "few",
+          "value": "za %d miesiące"
+        },
+        {
+          "quantity": "many",
+          "value": "za %d miesięcy"
+        },{
+          "quantity": "other",
+          "value": "za %d miesiąca"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "wczoraj"
+        },
+        {
+          "quantity": "few",
+          "value": "%d dni temu"
+        },
+        {
+          "quantity": "many",
+          "value": "%d dni temu"
+        },{
+          "quantity": "other",
+          "value": "%d dni temu"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "jutro"
+        },
+        {
+          "quantity": "few",
+          "value": "za %d dni"
+        },
+        {
+          "quantity": "many",
+          "value": "za %d dni"
+        },{
+          "quantity": "other",
+          "value": "za %d dni"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "bir saat önce"
+        },
+        {
+          "quantity": "other",
+          "value": "%d saat önce"
+        }
+      ]
+    },{
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "bir saat sonra"
+        },
+        {
+          "quantity": "other",
+          "value": "%d saat sonra"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "bir dakika önce"
+        },
+        {
+          "quantity": "other",
+          "value": "%d dakika önce"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "bir dakika sonra"
+        },
+        {
+          "quantity": "other",
+          "value": "%d dakika sonra"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "bir saniye önce"
+        },
+        {
+          "quantity": "other",
+          "value": "%d saniye önce"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "bir saniye sonra"
+        },
+        {
+          "quantity": "other",
+          "value": "%d saniye sonra"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "geçen yıl"
+        },
+        {
+          "quantity": "other",
+          "value": "%d yıl önce"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "gelecek yıl"
+        },
+        {
+          "quantity": "other",
+          "value": "%d yıl sonra"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "geçen ay"
+        },
+        {
+          "quantity": "other",
+          "value": "%d ay önce"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "gelecek ay"
+        },
+        {
+          "quantity": "other",
+          "value": "%d ay sonra"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "dün"
+        },
+        {
+          "quantity": "other",
+          "value": "%d gün önce"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "yarın"
+        },
+        {
+          "quantity": "other",
+          "value": "%d gün sonra"
+        }
+      ]
+    }
+  ]
+}

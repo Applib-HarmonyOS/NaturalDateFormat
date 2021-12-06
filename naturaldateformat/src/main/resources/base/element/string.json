@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "naturaldateformat_library",
+      "value": "naturaldateformat_library"
+    },
+    {
+      "name": "now",
+      "value": "now"
+    },
+    {
+      "name": "thisMonth",
+      "value": "this month"
+    },
+    {
+      "name": "today",
+      "value": "today"
+    },
+    {
+      "name": "thisYear",
+      "value": "this year"
+    }
+  ]
+}

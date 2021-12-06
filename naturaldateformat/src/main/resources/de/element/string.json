@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "now",
+      "value": "jetzt"
+    },
+    {
+      "name": "thisMonth",
+      "value": "diesen Monat"
+    },
+    {
+      "name": "today",
+      "value": "heute"
+    },
+    {
+      "name": "thisYear",
+      "value": "dieses Jahr"
+    }
+  ]
+}

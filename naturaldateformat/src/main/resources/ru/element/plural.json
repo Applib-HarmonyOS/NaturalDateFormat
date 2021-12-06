@@ -1,0 +1,234 @@
+{
+  "plural": [
+    {
+      "name": "carbon_hoursAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d час назад"
+        },
+        {
+          "quantity": "few",
+          "value": "%d часа назад"
+        },
+        {
+          "quantity": "many",
+          "value": "%d часов назад"
+        },{
+          "quantity": "other",
+          "value": "%d часов назад"
+        }
+      ]
+    },
+    {
+      "name": "carbon_inHours",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "через %d час"
+        },
+        {
+          "quantity": "few",
+          "value": "через %d часа"
+        },
+        {
+          "quantity": "many",
+          "value": "через %d часов"
+        },{
+          "quantity": "other",
+          "value": "через %d часов"
+        }
+      ]
+    },{
+      "name": "carbon_minutesAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d минуту назад"
+        },
+        {
+          "quantity": "few",
+          "value": "%d минуты назад"
+        },
+        {
+          "quantity": "many",
+          "value": "%d минут назад"
+        },{
+          "quantity": "other",
+          "value": "%d минут назад"
+        }
+      ]
+    },{
+      "name": "carbon_inMinutes",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "через %d минуту"
+        },
+        {
+          "quantity": "few",
+          "value": "через %d минуты"
+        },
+        {
+          "quantity": "many",
+          "value": "через %d минут"
+        },{
+          "quantity": "other",
+          "value": "через %d минут"
+        }
+      ]
+    },{
+      "name": "carbon_secondsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d секунду назад"
+        },
+        {
+          "quantity": "few",
+          "value": "%d секунды назад"
+        },
+        {
+          "quantity": "many",
+          "value": "%d секунд назад"
+        },{
+          "quantity": "other",
+          "value": "%d секунд назад"
+        }
+      ]
+    },{
+      "name": "carbon_inSeconds",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "через %d секунду"
+        },
+        {
+          "quantity": "few",
+          "value": "через %d секунды"
+        },
+        {
+          "quantity": "many",
+          "value": "через %d секунд"
+        },{
+          "quantity": "other",
+          "value": "через %d секунд"
+        }
+      ]
+    },{
+      "name": "carbon_yearsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d год назад"
+        },
+        {
+          "quantity": "few",
+          "value": "%d года назад"
+        },
+        {
+          "quantity": "many",
+          "value": "%d лет назад"
+        },{
+          "quantity": "other",
+          "value": "%d лет назад"
+        }
+      ]
+    },{
+      "name": "carbon_inYears",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "через %d год"
+        },
+        {
+          "quantity": "few",
+          "value": "через %d года"
+        },
+        {
+          "quantity": "many",
+          "value": "через %d лет"
+        },{
+          "quantity": "other",
+          "value": "через %d лет"
+        }
+      ]
+    },{
+      "name": "carbon_monthsAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d месяц назад"
+        },
+        {
+          "quantity": "few",
+          "value": "%d месяца назад"
+        },
+        {
+          "quantity": "many",
+          "value": "%d месяцев назад"
+        },{
+          "quantity": "other",
+          "value": "%d месяцев назад"
+        }
+      ]
+    },{
+      "name": "carbon_inMonths",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "через %d месяц"
+        },
+        {
+          "quantity": "few",
+          "value": "через %d месяца"
+        },
+        {
+          "quantity": "many",
+          "value": "через %d месяцев"
+        },{
+          "quantity": "other",
+          "value": "через %d месяцев"
+        }
+      ]
+    },{
+      "name": "carbon_daysAgo",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d день назад"
+        },
+        {
+          "quantity": "few",
+          "value": "%d дня назад"
+        },
+        {
+          "quantity": "many",
+          "value": "%d дней назад"
+        },{
+          "quantity": "other",
+          "value": "%d дней назад"
+        }
+      ]
+    },{
+      "name": "carbon_inDays",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "через %d день"
+        },
+        {
+          "quantity": "few",
+          "value": "через %d дня"
+        },
+        {
+          "quantity": "many",
+          "value": "через %d дней"
+        },{
+          "quantity": "other",
+          "value": "через %d дней"
+        }
+      ]
+    }
+  ]
+}

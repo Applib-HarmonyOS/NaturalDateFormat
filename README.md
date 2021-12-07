@@ -1,3 +1,5 @@
+[![.github/workflows/main.yml](https://github.com/applibgroup/NaturalDateFormat/actions/workflows/main.yml/badge.svg)](https://github.com/applibgroup/NaturalDateFormat/actions/workflows/main.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_NaturalDateFormat&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=applibgroup_NaturalDateFormat)
 # NaturalDateFormat
 
 A HMOS library to format dates. 
@@ -27,7 +29,13 @@ This library provides feature to format dates. RelativeDateFormat formats date a
                 compile 'joda-time:joda-time:2.9.4'
         }
 ```
-
+3. For using naturaldateformat from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+``` groovy
+         dependencies {
+                 implementation ('dev.applibgroup:naturaldateformat:1.0.0')  
+	         testCompile 'junit:junit:4.13'
+         }
+```
 
 ## Usage
 
